@@ -174,7 +174,7 @@ public class SuperDevListener implements CodeServerListener {
         args.add(regex.substring(1));
       } else {
         args.add("-includeJsInteropExports");
-        args.add(regex);
+        args.add(regex.substring(1));
       }
     }
     if (!options.isIncrementalCompileEnabled()) {
