@@ -51,7 +51,7 @@ public class ClippedImageImpl {
   }
 
   protected static final SafeUri clearImage =
-    UriUtils.fromTrustedString(GWT.getModuleBaseURL() + "clear.cache.gif");
+    UriUtils.fromTrustedString(GWT.getModuleBaseForStaticFiles() + "clear.cache.gif");
   private static Template template;
   private static DraggableTemplate draggableTemplate;
 
